@@ -1,5 +1,5 @@
 body { 
-font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
 
 background: #FAFAFA;
         
@@ -117,7 +117,7 @@ hr {
     margin-bottom: 0;
 }
 .card-title {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 .profile {
   font-size: 1rem;
@@ -317,15 +317,24 @@ img {
     linear-gradient(315deg, hsla(75, 93%, 45%, 1) 100%, hsla(75, 93%, 45%, 0) 70%);
   
 }
-
+.navbar-brand {
+font-size: 2rem;
+}
+.navbar-nav {
+  padding-top: 0.6rem;
+  font-size: 1.1rem;
+}
 .city-card {
   margin-top: 2rem; 
 }
 
 .pac-container {
-  font-family: 'Montserrat',sans-serif;
+  font-family: 'Open Sans',sans-serif;
 }
 
 .pac-item {
   height: 2.9rem;
+}
+.chips {
+    padding: 0.7rem;
 }
