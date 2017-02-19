@@ -1,6 +1,6 @@
 window.addEventListener('load', function() {
 
-  var lock = new Auth0Lock('iXrnGNCaPTbiaD4Meng0OeFddWVIlSlq','rishravi.auth0.com');
+  var lock = new Auth0Lock('iXrnGNCaPTbiaD4Meng0OeFddWVIlSlq','rishravi.auth0.com',options);
 
   // buttons
   var btn_login = document.getElementById('btn-login');
@@ -56,3 +56,9 @@ window.addEventListener('load', function() {
 
   retrieve_profile();
 });
+
+var options = {
+  theme: {
+    logo: 'img/lg.png'
+  }  
+};
