@@ -59,6 +59,9 @@ window.addEventListener('load', function() {
 
 var options = {
   theme: {
-    logo: 'img/lg.png'
+    logo: 'img/lg.png',
+    title: "Log me in",
+    primaryColor: '#1AE885'
+
   }  
 };
